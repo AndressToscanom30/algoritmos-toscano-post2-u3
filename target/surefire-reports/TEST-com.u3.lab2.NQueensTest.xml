@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.u3.lab2.NQueensTest" time="0.277" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.u3.lab2.NQueensTest" time="0.253" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Users\tosca\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin"/>
-    <property name="sun.java.command" value="C:\Users\tosca\AppData\Local\Temp\surefire3524903905622028979\surefirebooter-20260318111207775_3.jar C:\Users\tosca\AppData\Local\Temp\surefire3524903905622028979 2026-03-18T11-12-07_668-jvmRun1 surefire-20260318111207775_1tmp surefire_0-20260318111207775_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\tosca\AppData\Local\Temp\surefire14782903387162280269\surefirebooter-20260318113346310_3.jar C:\Users\tosca\AppData\Local\Temp\surefire14782903387162280269 2026-03-18T11-33-46_187-jvmRun1 surefire-20260318113346310_1tmp surefire_0-20260318113346310_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\post2-u3\target\test-classes;C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\post2-u3\target\classes;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\tosca\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\tosca\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\tosca\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\tosca\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\tosca\AppData\Local\Temp\surefire3524903905622028979\surefirebooter-20260318111207775_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\tosca\AppData\Local\Temp\surefire14782903387162280269\surefirebooter-20260318113346310_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.10+7-LTS"/>
@@ -59,13 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testNaiveN12" classname="com.u3.lab2.NQueensTest" time="0.103"/>
-  <testcase name="testAmbosProducenMismoResultadoN1a12" classname="com.u3.lab2.NQueensTest" time="0.143"/>
-  <testcase name="testBitmaskN1" classname="com.u3.lab2.NQueensTest" time="0.003"/>
-  <testcase name="testBitmaskN4" classname="com.u3.lab2.NQueensTest" time="0.002"/>
-  <testcase name="testBitmaskN8" classname="com.u3.lab2.NQueensTest" time="0.001"/>
-  <testcase name="testNaiveN1" classname="com.u3.lab2.NQueensTest" time="0.001"/>
+  <testcase name="testNaiveN12" classname="com.u3.lab2.NQueensTest" time="0.108"/>
+  <testcase name="testAmbosProducenMismoResultadoN1a12" classname="com.u3.lab2.NQueensTest" time="0.129"/>
+  <testcase name="testBitmaskN1" classname="com.u3.lab2.NQueensTest" time="0.001"/>
+  <testcase name="testBitmaskN4" classname="com.u3.lab2.NQueensTest" time="0.0"/>
+  <testcase name="testBitmaskN8" classname="com.u3.lab2.NQueensTest" time="0.0"/>
+  <testcase name="testNaiveN1" classname="com.u3.lab2.NQueensTest" time="0.0"/>
   <testcase name="testNaiveN4" classname="com.u3.lab2.NQueensTest" time="0.001"/>
   <testcase name="testNaiveN8" classname="com.u3.lab2.NQueensTest" time="0.001"/>
-  <testcase name="testBitmaskN12" classname="com.u3.lab2.NQueensTest" time="0.007"/>
+  <testcase name="testBitmaskN12" classname="com.u3.lab2.NQueensTest" time="0.006"/>
 </testsuite>
